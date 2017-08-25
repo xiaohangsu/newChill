@@ -1,0 +1,38 @@
+{
+  "name": "newChill",
+  "version": "1.0.0",
+  "description": "",
+  "repository": "https://github.com/xiaohangsu/newChill",
+  "main": "",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack-dev-server",
+    "dev-run": "nodemon app.js dev",
+    "dist-run": "./node_modules/.bin/webpack | node app.js dist"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^0.26.1",
+    "eslint": "^4.2.0",
+    "extract-text-webpack-plugin": "^2.0.0-rc.3",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^6.0.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.2.2",
+    "babel-register": "^6.24.0",
+    "bootstrap": "^3.3.7",
+    "ejs": "^2.5.6",
+    "koa": "^2.2.0",
+    "koa-router": "^7.0.1",
+    "koa-send": "^3.3.0",
+    "koa-views": "^6.0.1",
+    "mysql": "^2.13.0",
+    "nodemon": "^1.11.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "sequelize": "^3.30.3"
+  }
+}
